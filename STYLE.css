@@ -1,0 +1,89 @@
+{
+  margin:0; padding:0;
+  box-sixing:border-box;
+  font-family: Georgia, sans-serif;
+  text-transform:capitalize;
+} 
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header {
+  background-color: floralwhite;
+  position:fixed;
+  top:0; left:0; right:0;
+  background:white;
+  padding:0 9%;
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+header.logo {
+   font-size: 40px;
+   color:lightpink;
+   font-weight:bolder;
+   text-align:center;
+ }
+
+ body{
+  background-image:url("https://i.pinimg.com/control/236x/56/25/59/5625594ff095f6799636e304af4104ca.jpg");
+  background size:1000%;
+  background-image:no repeat;
+ }
+
+ h3{
+  Text-align:Center;
+  Color:Black;
+ }
+
+ p{
+  text-size:10px;
+  text-align: center;
+ }
+
+ br {
+    
+    text-size:15px;
+    text-font: Georgia;
+    color: darkpink;
+
+ }
+
+ div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
